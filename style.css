@@ -1,0 +1,68 @@
+body {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  /* dunkler, ruhiger Hintergrund */
+  background: #1e1f25;
+  margin: 0;
+}
+
+/* Karte */
+.card {
+  background: #2a2c36;
+  color: #e8e8e8;
+
+  padding: 32px;
+  border-radius: 16px;
+  width: 420px;
+
+  text-align: center;
+
+  /* dezenter Schatten für Tiefe */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+
+  /* leichte Umrandung für Struktur */
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Frage (falls vorhanden im HTML) */
+#question {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+/* Antwort */
+.hidden {
+  display: none;
+  margin-top: 16px;
+  color: #7CFF9B; /* sanftes Grün, nicht grell */
+  font-size: 16px;
+}
+
+/* Buttons (falls du sie nutzt) */
+button {
+  margin-top: 12px;
+  padding: 10px 14px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #3a3d4a;
+  color: #e8e8e8;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background: #4a4e60;
+}
+
+/* aktive visuelle Rückmeldung */
+button:active {
+  transform: scale(0.98);
+}
